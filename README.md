@@ -30,3 +30,13 @@ The metadata section may also contain default attributes that apply throughout t
     tempo: 4=150
 
 These default values will be applied to all bars in the document except where the values have been overridden. (See Bars)
+
+Here's an example metadata section of an MML document.
+
+	# hungarian5.mml
+    ---
+    title: Hungarian Dance No. 5
+    author: Brahms
+    time: 4/4
+    tempo: 8=120
+    ---
