@@ -34,9 +34,15 @@ These default values will be applied to all bars in the document except where th
 Here's an example metadata section of an MML document.
 
 	# hungarian5.mml
-    ---
+    -
     title: Hungarian Dance No. 5
     author: Brahms
     time: 4/4
     tempo: 8=120
-    ---
+    -
+
+### Bars
+
+Each document contains many bars, each bar is defined using an opening and closing set of three dashes (---).
+
+A bar will inherit the document time signature unless specified in square brackets after the dashes at the beginning of the bar, e.g. `--- {4/4}`
