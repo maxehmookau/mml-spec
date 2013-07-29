@@ -1,4 +1,15 @@
----
+-
 title: Title
-author: Max WOolf
+author: Max Woolf
 time: 4/4
+-
+
+--- {4/4} # Bar (Inherits time from score, or can be set here)
+
+4: C4 { > }
+4: D4 { . }
+8: D4 { . }
+8: D4 { . }
+4: B3
+
+--- # End Bar
