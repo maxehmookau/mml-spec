@@ -3,6 +3,8 @@ Music Markup Language (MML)
 
 Some ideas of better expressing music as plain text than using Music XML or other proprietary technologies.
 
+The creation of this document will hopefully lead to a binary application to output music based on this specification.
+
 ## Assumptions
 
 > Rule No 1. We should make as few assumptions as possible. But, we have to make some.
@@ -14,6 +16,13 @@ Some ideas of better expressing music as plain text than using Music XML or othe
 ## Syntax
 
 > This is a draft document, it will change.
+
+### Comments
+
+Comments can be added on any line using hash (#). Comments can also be added to the end of any line.
+
+    # This is a comment
+    --- {4/4} # This is also a comment
 
 ### Metadata
 
