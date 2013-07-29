@@ -14,3 +14,19 @@ Some ideas of better expressing music as plain text than using Music XML or othe
 ## Syntax
 
 > This is a draft document, it will change.
+
+### Metadata
+
+Each document may contain metadata. The metadata section may contain the following information as key-value pairs:
+
+    title: Title
+    author: Author Name
+    ...
+
+The metadata section may also contain default attributes that apply throughout the document:
+
+    ...
+    time: 4/4
+    tempo: 4=150
+
+These default values will be applied to all bars in the document except where the values have been overridden. (See Bars)
